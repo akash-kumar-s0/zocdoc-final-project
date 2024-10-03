@@ -7,7 +7,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <header className="bg-yellow-50 shadow-sm">
-      <div className=" flex max-w-[1440px] justify-between items-center px-16 py-5 mx-auto ">
+      <div className="flex max-w-[1440px] justify-between items-center px-16 py-5 mx-auto ">
         <div className="flex space-x-6">
           <button
             className="lg:hidden text-gray-700 focus:outline-none"
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         <nav className="flex items-center ">
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex items-center">
             <a
               href="#"
               className="text-gray-700 flex items-center hover:bg-slate-100 px-5 h-12"
