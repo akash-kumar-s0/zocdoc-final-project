@@ -19,30 +19,30 @@ const Header = () => {
         </div>
 
         <nav className="flex items-center ">
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center gap-[16px]">
             <a
               href="#"
-              className="text-gray-700 flex items-center hover:bg-slate-100 px-5 h-12"
+              className="text-gray-700 flex items-center hover:bg-[#3a2f1f0d] rounded-[4px] px-5 h-12"
             >
               Browse
               <span className="ml-3">
                 <img src={down}></img>
               </span>
             </a>
-            <a href="#" className="text-gray-700 flex items-center px-5 h-12">
+            <a href="#" className="text-gray-700 flex items-center hover:bg-[#3a2f1f0d] rounded-[4px] px-5 h-12">
               Help
             </a>
-            <a href="#" className="text-gray-700 flex items-center px-5 h-12">
+            <a href="#" className="text-gray-700 flex items-center hover:bg-[#3a2f1f0d] rounded-[4px] px-5 h-12">
               List your practice on Zocdoc
             </a>
             <div className="h-6 border-solid border-l opacity-[0.1] border-l-[#3a2f1f]"></div>
-            <button className="text-gray-700 px-5 h-12 flex items-center">
+            <button className="text-gray-700 px-5 h-12 flex items-center hover:bg-[#3a2f1f0d] rounded-[4px]">
               Log in
               <span className="ml-3">
                 <img src={down}></img>
               </span>
             </button>
-            <button className="bg-[#FFF04B] text-black  rounded-[4px] px-5 h-12">
+            <button className="bg-[#FFF04B] text-black  rounded-[4px] px-5 h-12 ">
               Sign up
             </button>
           </div>

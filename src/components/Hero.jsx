@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute hidden lg:flex top-5 left-[-225px] w-[450px]">
         <img  className="max-w-full h-auto" src={leftH} alt="Left Hand" />
       </div>
-      <div className="absolute hidden lg:flex top-5 xl:right-[-160px] w-[465px] lg:right-[-205px]">
+      <div className="absolute hidden lg:flex top-0 xl:right-[-160px] w-[465px] lg:right-[-205px]">
         <img  className="max-w-full h-auto " src={rightH} alt="Right Hand" />
       </div>
 
