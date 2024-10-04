@@ -47,10 +47,8 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Mobile Navigation Menu */}
           {isMobileMenuOpen && (
                 <div className="absolute top-0 left-0 w-full h-[50vh] bg-yellow-50 shadow-md lg:hidden flex flex-col items-center justify-center p-4 z-50">
-                    {/* Close Button */}
                     <img className="absolute top-4 left-4 h-11 w-28" src={LogoImg} alt="hello" />
 
                     <button 
@@ -62,7 +60,6 @@ const Header = () => {
                         </svg>
                     </button>
 
-                    {/* Menu Content */}
                     <h2 className="text-2xl font-semibold mb-6">Welcome to Zocdoc</h2>
                     <button className="bg-yellow-500 text-white px-4 py-2 rounded-full mb-4 hover:bg-yellow-600">
                         Sign up

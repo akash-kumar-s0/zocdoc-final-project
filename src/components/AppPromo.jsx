@@ -7,7 +7,7 @@ import Arrow from "../assets/AppPromo/arrow.png";
 
 const AppPromo = () => {
   return (
-    <section className="relative bg-orange-200 flex justify-center items-center overflow-hidden">
+    <section className="relative bg-orange-200 flex justify-center items-center px-11 overflow-hidden">
       <div className=" py-10 pr-20 z-20 relative">
         <h2 className="text-3xl font-semibold mb-4">
           Thousands of providers. One app.
@@ -38,10 +38,10 @@ const AppPromo = () => {
           alt="Phone showing the app"
           className="relative z-20 "
         />
-        <div className="absolute w-[800px] h-[800px] bg-[#FEED5A] rounded-full -z-50 -bottom-[450px] right-0 lg:-right-11 overflow-hidden"></div>
+        <div className="hidden md:flex absolute w-[800px] h-[800px] bg-[#FEED5A] rounded-full -z-50 -bottom-[450px] right-0 lg:-right-11 overflow-hidden"></div>
       </div>
 
-      <div className="absolute left-1/2 top-1/3 z-40 transform -translate-x-10 -translate-y-8">
+      <div className="hidden md:flex absolute left-1/2 top-1/3 z-40 transform -translate-x-10 -translate-y-8">
         <img src={Arrow} alt="Decorative Arrow" className="w-24" />
       </div>
     </section>
