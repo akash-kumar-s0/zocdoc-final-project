@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaSearch, FaMapMarkerAlt, FaRegAddressCard } from "react-icons/fa";
 import blink from "../../../assets/Hero/Design.png";
-import axios from "axios";
+import { getSpecialities } from "../../../axios/GetData";
 
 const SearchBar = () => {
   const [specialties, setSpecialties] = useState([]);
@@ -12,7 +12,7 @@ const SearchBar = () => {
   useEffect(() => {
     const fetchSpecialties = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/specialties');
+        const response = await getSpecialities()
         setSpecialties(response.data);
       } catch (error) {
         console.error('Error fetching specialties:', error);
@@ -94,7 +94,7 @@ const SearchBar = () => {
       </div>
 
       <button className="bg-[#FCE721] relative rounded-full p-3 ml-2 hover:bg-[#fde721] hover:shadow">
-        <FaSearch className="text-white" />
+        <FaSearch className="text-black" />
         <img
           className="absolute -bottom-4 -right-8 top-5  flex space-x-1"
           src={blink}

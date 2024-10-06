@@ -18,7 +18,7 @@ const Hero = () => {
   }, [words.length]);
 
   return (
-    <section className="bg-yellow-50 py-16 px-4 pb-24 md:px-8 md:pt-10 max-lg:pb-5 relative flex flex-col items-center overflow-hidden">
+    <section className="bg-yellow-50 py-16 px-4 pb-24 md:px-8 md:pt-10 max-lg:pb-5 relative flex flex-col items-center overflow-x-clip">
       <div className="absolute hidden lg:flex top-5 left-[-225px] w-[450px] ">
         <img className="max-w-full h-auto" src={leftH} alt="Left Hand" />
       </div>
@@ -34,44 +34,7 @@ const Hero = () => {
         <br /> who take your insurance
       </h1>
 
-      {/* <div className="bg-white hidden lg:flex items-center rounded-full shadow-md  max-w-4xl mx-auto p-1">
-        <div className="flex items-center px-4 w-1/3 border-r border-gray-300">
-          <FaSearch className="text-gray-500 mr-2" />
-          <input
-            type="text"
-            placeholder="Condition, procedure, doctor..."
-            className="w-full p-2 outline-none text-gray-700"
-          />
-        </div>
-
-        <div className="flex items-center px-4 w-1/3 border-r border-gray-300">
-          <FaMapMarkerAlt className="text-gray-500 mr-2" />
-          <input
-            type="text"
-            placeholder="Chennai, TN"
-            className="w-full p-2 outline-none text-gray-700"
-          />
-        </div>
-
-        <div className="flex items-center px-4 w-1/3">
-          <FaRegAddressCard className="text-gray-500 mr-2" />
-          <input
-            type="text"
-            placeholder="Choose Insurance"
-            className="w-full p-2 outline-none text-gray-700"
-          />
-        </div>
-
-        <button className="bg-[#FCE721] relative rounded-full p-3 ml-2 hover:bg-[#fde721] hover:shadow">
-          <FaSearch className="text-white" />
-          <img
-            className="absolute -bottom-4 -right-8 top-5  flex space-x-1"
-            src={blink}
-            alt=""
-          />
-        </button>
-      </div> */}
-      <SearchBar/>
+      <SearchBar />
 
       <div className="hidden max-lg:flex flex-col w-full bg-white px-4 rounded-lg shadow-md mx-auto">
         <div className="flex items-center border-b border-gray-300 py-2">

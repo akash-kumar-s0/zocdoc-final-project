@@ -1,10 +1,10 @@
 import React from "react";
-import Android from "../assets/Footer/Android.png";
-import Apple from "../assets/Footer/Apple.png";
-import TwitterIcon from "../assets/Footer/Twitter.png";
-import InstagramIcon from "../assets/Footer/Instagram.png";
-import FacebookIcon from "../assets/Footer/Facebook.png";
-import LinkedInIcon from "../assets/Footer/LinkedIn.png";
+import Android from "../../assets/Footer/Android.png";
+import Apple from "../../assets/Footer/Apple.png";
+import TwitterIcon from "../../assets/Footer/Twitter.png";
+import InstagramIcon from "../../assets/Footer/Instagram.png";
+import FacebookIcon from "../../assets/Footer/Facebook.png";
+import LinkedInIcon from "../../assets/Footer/LinkedIn.png";
 
 const Footer = () => {
   return (

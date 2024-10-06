@@ -1,5 +1,5 @@
 import React from "react";
-import zcouple from "../assets/Job/zcouple.png";
+import zcouple from "../../assets/Job/zcouple.png";
 
 const JobSection = () => {
   return (

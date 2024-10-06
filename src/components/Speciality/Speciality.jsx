@@ -1,5 +1,5 @@
 import React from "react";
-import SpecialityImage from "../assets/Speciality";
+import SpecialityImage from "../../assets/Speciality";
 
 const specialties = SpecialityImage;
 
@@ -13,9 +13,8 @@ const Speciality = () => {
 
         <div className="flex flex-wrap md:flex-nowrap w-auto box-border -m-[6px]">
           {specialties.map((specialty, index) => (
-            <div className="p-1 sm:basis-1/3 basis-1/2">
+            <div className="p-1 sm:basis-1/3 basis-1/2"  key={index}>
               <div
-                key={index}
                 className="bg-[#FEF0BB] lg:pt-7 md:pb-4  py-4 flex flex-col items-center pt-[23px] pb-[13px] border-solid border-[#3a2f1f1a] rounded-[4px] border-[1px]"
               >
                 <div className="lg:px-8 lg:mb-4 md:mb-[8px] md:px-[19px] px-[26px] mb-3">

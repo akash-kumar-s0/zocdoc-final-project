@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import LogoImg from "../assets/logo.svg";
-import down from "../assets/svg/down.svg";
-import hamburger from "../assets/svg/Hamburger.svg";
+import LogoImg from "../../assets/logo.svg";
+import down from "../../assets/svg/down.svg";
+import hamburger from "../../assets/svg/Hamburger.svg";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

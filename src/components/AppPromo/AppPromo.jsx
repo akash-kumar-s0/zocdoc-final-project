@@ -1,9 +1,9 @@
 import React from "react";
-import Qr from "../assets/AppPromo/qr.png";
-import PlayStore from "../assets/AppPromo/playS.png";
-import AppStore from "../assets/AppPromo/appS.png";
-import Hand from "../assets/AppPromo/hand.png";
-import Arrow from "../assets/AppPromo/arrow.png";
+import Qr from "../../assets/AppPromo/qr.png";
+import PlayStore from "../../assets/AppPromo/playS.png";
+import AppStore from "../../assets/AppPromo/appS.png";
+import Hand from "../../assets/AppPromo/hand.png";
+import Arrow from "../../assets/AppPromo/arrow.png";
 
 const AppPromo = () => {
   return (
@@ -32,16 +32,16 @@ const AppPromo = () => {
         </div>
       </div>
 
-      <div className="relative w-full md:w-1/2 lg:w-1/3 flex justify-center z-20">
+      <div className="hidden relative w-full md:w-1/2 lg:w-1/3 lg:flex justify-center z-20">
         <img
           src={Hand}
           alt="Phone showing the app"
           className="relative z-20 "
         />
-        <div className="hidden md:flex absolute w-[800px] h-[800px] bg-[#FEED5A] rounded-full -z-50 -bottom-[450px] right-0 lg:-right-11 overflow-hidden"></div>
+        <div className="hidden lg:flex absolute w-[800px] h-[800px] bg-[#FEED5A] rounded-full -z-50 -bottom-[450px] right-0 lg:-right-11 overflow-hidden"></div>
       </div>
 
-      <div className="hidden md:flex absolute left-1/2 top-1/3 z-40 transform -translate-x-10 -translate-y-8">
+      <div className="hidden lg:flex absolute left-1/2 top-1/3 z-40 transform -translate-x-10 -translate-y-8">
         <img src={Arrow} alt="Decorative Arrow" className="w-24" />
       </div>
     </section>

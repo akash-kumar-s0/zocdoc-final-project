@@ -1,5 +1,5 @@
 import React from "react";
-import DoctorImage from "../assets/Subscription/docI.png";
+import DoctorImage from "../../assets/Subscription/docI.png";
 
 const SubscriptionPromo = () => {
   return (

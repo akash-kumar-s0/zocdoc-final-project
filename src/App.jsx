@@ -1,21 +1,21 @@
 import "./App.css";
-import AppPromo from "./components/AppPromo";
-import DoctorSection from "./components/DoctorSection";
+import AppPromo from "./components/AppPromo/AppPromo";
 import CityDropdown from "./components/CityDrop/CityDropdown";
-// import CityDropdown from "./components/Finds/Visits";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import DoctorSection from "./components/DoctorSection/DoctorSection";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import Insurance from "./components/Insurance";
-import JobSection from "./components/JobSection";
-import PartnerSection from "./components/PartnerSection";
-import Speciality from "./components/Speciality";
-import SubscriptionPromo from "./components/SubscriptionPromo";
+import Insurance from "./components/Insurance/Insurance";
+import JobSection from "./components/JobSection/JobSection";
+import PartnerSection from "./components/PartnerSection/PartnerSection";
+import Speciality from "./components/Speciality/Speciality";
+import SubscriptionPromo from "./components/SubscriptionPromo/SubscriptionPromo";
+
 
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <Hero />
       <Insurance />
       <Speciality />
