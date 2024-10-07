@@ -6,7 +6,7 @@ const services = DoctorImage;
 const DoctorSection = () => {
   return (
     <section className="bg-[#FEF0BB] lg:px-20 lg:py-24 md:pt-12 md:px-8 py-7">
-      <div className="lg:max-w-[1440px] mx-auto text-center">
+      <div className="lg:max-w-full mx-auto text-center">
         <h2 className="text-2xl font-semibold lg:pb-16 pb-3">
           Let’s get you a doc who gets you
         </h2>

@@ -21,27 +21,39 @@ const PartnerSection = () => {
             Partner with Zocdoc
           </button>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-16 lg:w-1/2">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-x-5 lg:gap-y-16 lg:w-1/2 flex flex-wrap justify-between items-center md:gap-x-5 md:gap-y-[30px]">
           <img
             src={MedStarHealth}
             alt="MedStar Health"
-            className=" w-auto"
+            className=" lg:w-auto max-lg:max-w-[28%]"
           />
-          <img src={MountSinai} alt="Mount Sinai" className=" w-auto" />
-          <img src={Tufts} alt="Tufts Medical Center" className="w-auto" />
-          <img src={Montefiore} alt="Montefiore" className=" w-auto" />
+          <img
+            src={MountSinai}
+            alt="Mount Sinai"
+            className=" lg:w-auto max-lg:max-w-[28%]"
+          />
+          <img
+            src={Tufts}
+            alt="Tufts Medical Center"
+            className="lg:w-auto max-lg:max-w-[28%]"
+          />
+          <img
+            src={Montefiore}
+            alt="Montefiore"
+            className=" lg:w-auto max-lg:max-w-[28%]"
+          />
           <img
             src={IntermountainHealth}
             alt="Intermountain Health"
-            className=" w-auto"
+            className="lg:w-auto max-lg:max-w-[28%]"
           />
-          <div className="flex items-center">
-            <img
-              src={Methodist}
-              alt="Houston Methodist"
-              className="w-auto"
-            />
-          </div>
+          {/* <div className="flex items-center"> */}
+          <img
+            src={Methodist}
+            alt="Houston Methodist"
+            className="lg:w-auto max-lg:max-w-[28%]"
+          />
+          {/* </div> */}
         </div>
       </div>
     </section>

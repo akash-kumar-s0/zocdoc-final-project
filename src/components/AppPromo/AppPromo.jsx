@@ -4,6 +4,7 @@ import PlayStore from "../../assets/AppPromo/playS.png";
 import AppStore from "../../assets/AppPromo/appS.png";
 import Hand from "../../assets/AppPromo/hand.png";
 import Arrow from "../../assets/AppPromo/arrow.png";
+// import semiCircle from "../../assets/AppPromo/semi-circle.png";
 
 const AppPromo = () => {
   return (

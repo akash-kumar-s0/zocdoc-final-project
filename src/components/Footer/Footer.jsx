@@ -9,7 +9,7 @@ import LinkedInIcon from "../../assets/Footer/LinkedIn.png";
 const Footer = () => {
   return (
     <footer className="bg-[#333333] text-gray-300 pt-4">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+      <div className=" mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         <div>
           <h3 className="text-white font-semibold mb-4">Zocdoc</h3>
           <ul className="space-y-2">
@@ -374,7 +374,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-black mt-8">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center p-4 w-auto">
+        <div className=" mx-auto flex flex-col md:flex-row justify-between items-center p-4 w-auto">
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 items-center text-sm text-gray-400">
             <p>© 2024 Zocdoc, Inc.</p>
             <a href="#" className="hover:underline">

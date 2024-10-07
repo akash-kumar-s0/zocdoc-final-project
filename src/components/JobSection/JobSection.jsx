@@ -3,8 +3,8 @@ import zcouple from "../../assets/Job/zcouple.png";
 
 const JobSection = () => {
   return (
-    <section className="bg-[#FFF4C3] py-16 px-6">
-      <div className="flex flex-col lg:flex-row justify-between items-center m-8 bg-white p-8 rounded-lg shadow-lg">
+    <section className="bg-[#FFF4C3] pb-16 px-6 max-lg:px-8">
+      <div className="flex flex-col lg:flex-row justify-between items-center bg-white px-8 rounded-lg max-lg:pt-6 shadow-lg">
         <div className="lg:w-1/2 mb-10 lg:mb-0 lg:pr-8">
           <h3 className="text-lg font-medium text-[#333333] mb-2">
             Zocdoc jobs
@@ -17,11 +17,11 @@ const JobSection = () => {
           </button>
         </div>
 
-        <div className="lg:w-1/2 flex justify-center">
+        <div className="lg:w-1/2 flex justify-center max-lg:mt-4">
           <img
             src={zcouple}
             alt="Job Promo"
-            className="w-[300px] lg:max-w-sm h-auto"
+            className="w-[400px] -mt-16 h-auto"
           />
         </div>
       </div>
