@@ -58,7 +58,7 @@ const SignUpPage = () => {
             <input
               id="dob"
               name="dob"
-              type="text"
+              type="date"
               required
               className="appearance-none block w-full px-3 py-2 border border-gray-[150] rounded-md  placeholder-gray-500 focus:outline-none focus:ring-yellow-500 focus:border-black sm:text-md"
               placeholder="dd/mm/yyyy"
