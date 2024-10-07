@@ -26,7 +26,7 @@ const Hero = () => {
         <img className="max-w-full h-auto " src={rightH} alt="Right Hand" />
       </div>
 
-      <h1 className="font-normal text-[44px] text-center mb-8">
+      <h1 className="font-thin text-[44px] text-center mb-8">
         Book local{" "}
         <span className="inline-block animate-fade">
           {words[currentWordIndex]}

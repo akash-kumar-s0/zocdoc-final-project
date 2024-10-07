@@ -3,10 +3,12 @@ import LogoImg from "../../assets/logo.svg";
 import down from "../../assets/svg/down.svg";
 import hamburger from "../../assets/svg/Hamburger.svg";
 import { Link } from "react-router-dom";
+import LoginModal from "./LoginModal/LoginModal";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLoginDropdownOpen, setIsLoginDropdownOpen] = useState(false);
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
   return (
     <header className="bg-yellow-50 shadow-sm">
@@ -66,6 +68,10 @@ const Header = () => {
                     <a
                       href="#"
                       className="block rounded-sm px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      onClick={() => {
+                        setIsLoginModalOpen(true);
+                        setIsLoginDropdownOpen(false);
+                      }}
                     >
                       Log in
                     </a>
@@ -136,6 +142,10 @@ const Header = () => {
           )}
         </nav>
       </div>
+      <LoginModal
+        isOpen={isLoginModalOpen}
+        onClose={() => setIsLoginModalOpen(false)}
+      />
     </header>
   );
 };
